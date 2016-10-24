@@ -60,7 +60,7 @@ class BadFunctionCallExceptionTest extends \PHPUnit_Framework_TestCase
             throw new BadFunctionCallException('Foo');
 
         } catch (BadFunctionCallException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

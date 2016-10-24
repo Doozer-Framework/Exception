@@ -60,7 +60,7 @@ class RuntimeExceptionTest extends \PHPUnit_Framework_TestCase
             throw new RuntimeException('Foo');
 
         } catch (RuntimeException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

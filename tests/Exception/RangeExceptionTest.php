@@ -60,7 +60,7 @@ class RangeExceptionTest extends \PHPUnit_Framework_TestCase
             throw new RangeException('Foo');
 
         } catch (RangeException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

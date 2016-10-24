@@ -60,7 +60,7 @@ class OutOfRangeExceptionTest extends \PHPUnit_Framework_TestCase
             throw new OutOfRangeException('Foo');
 
         } catch (OutOfRangeException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

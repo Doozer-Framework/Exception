@@ -60,7 +60,7 @@ class LogicExceptionTest extends \PHPUnit_Framework_TestCase
             throw new LogicException('Foo');
 
         } catch (LogicException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

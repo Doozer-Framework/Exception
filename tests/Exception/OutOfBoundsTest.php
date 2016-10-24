@@ -60,7 +60,7 @@ class OutOfBoundsExceptionTest extends \PHPUnit_Framework_TestCase
             throw new OutOfBoundsException('Foo');
 
         } catch (OutOfBoundsException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

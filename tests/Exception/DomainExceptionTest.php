@@ -60,7 +60,7 @@ class DomainExceptionTest extends \PHPUnit_Framework_TestCase
             throw new DomainException('Foo');
 
         } catch (DomainException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

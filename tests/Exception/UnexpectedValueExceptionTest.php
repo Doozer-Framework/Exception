@@ -60,7 +60,7 @@ class UnexpectedValueExceptionTest extends \PHPUnit_Framework_TestCase
             throw new UnexpectedValueException('Foo');
 
         } catch (UnexpectedValueException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

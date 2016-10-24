@@ -60,7 +60,7 @@ class LengthExceptionTest extends \PHPUnit_Framework_TestCase
             throw new LengthException('Foo');
 
         } catch (LengthException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }

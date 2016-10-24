@@ -60,7 +60,7 @@ class UnderflowExceptionTest extends \PHPUnit_Framework_TestCase
             throw new UnderflowException('Foo');
 
         } catch (UnderflowException $exception) {
-            self::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
+            static::assertInstanceOf('\Doozer\Exception\ExceptionInterface', $exception);
             throw $exception;
         }
     }
