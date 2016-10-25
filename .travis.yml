@@ -30,7 +30,7 @@ after_script:
   # We upload only for reference platform! This is our base for further code analyses and so on.
   #- if [ $(phpenv version-name) == "5.6" ] && [ "$PREFER_LOWEST" == "--prefer-lowest" ]; then wget https://scrutinizer-ci.com/ocular.phar; fi
   #- if [ $(phpenv version-name) == "5.6" ] && [ "$PREFER_LOWEST" == "--prefer-lowest" ]; then php ocular.phar code-coverage:upload --format=php-clover build/logs/clover.xml > /dev/null 2>&1; fi
-  - CODECLIMATE_REPO_TOKEN=23fa3befefb07be8c214fea5a38a29171f02bb593ca673ff2ca00188fd9bd59f ./bin/test-reporter
+  - CODECLIMATE_REPO_TOKEN=$CODECLIMATE_TOKEN ./bin/test-reporter
 
 after_success:
   # Push coverage to github pages branch
