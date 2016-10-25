@@ -50,10 +50,6 @@ branches:
   except:
     - /^build-[0-9a-z\-]*/
 
-addons:
-    code_climate:
-        repo_token: $CODECLIMATE_REPO_TOKEN
-
 # Who to notify?
 notifications:
   slack:
