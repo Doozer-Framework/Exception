@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\LogicException;
 
 /**
- * LogicExceptionTest.
+ * Class LogicExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

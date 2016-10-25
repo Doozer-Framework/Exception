@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\OverflowException;
 
 /**
- * OverflowExceptionTest.
+ * Class OverflowExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

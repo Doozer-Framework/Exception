@@ -2,7 +2,7 @@
 ---
 # ![logo](docs/logo.png)
 ---
-[![Build Status](https://travis-ci.org/Doozer-Framework/Exception.svg)](https://travis-ci.org/Doozer-Framework/Exception) [![Code Climate](https://codeclimate.com/github/Doozer-Framework/Exception/badges/gpa.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Test Coverage](https://codeclimate.com/github/Doozer-Framework/Exception/badges/coverage.svg)](https://codeclimate.com/github/Doozer-Framework/Exception/coverage) [![Issue Count](https://codeclimate.com/github/Doozer-Framework/Exception/badges/issue_count.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) 
+[![Build Status](https://travis-ci.org/Doozer-Framework/Exception.svg)](https://travis-ci.org/Doozer-Framework/Exception) [![Code Climate](https://codeclimate.com/github/Doozer-Framework/Exception/badges/gpa.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Test Coverage](https://codeclimate.com/github/Doozer-Framework/Exception/badges/coverage.svg)](https://codeclimate.com/github/Doozer-Framework/Exception/coverage) [![Issue Count](https://codeclimate.com/github/Doozer-Framework/Exception/badges/issue_count.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Dependency Status](https://www.versioneye.com/user/projects/580f6cc1912815137ff3c753/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/580f6cc1912815137ff3c753) 
 
 Library providing a collection of abstract base exceptions for Doozer-Framework components, libraries and applications.
 
@@ -63,5 +63,4 @@ MIT
 
 ## Credits
 
-<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-
+<div>Icons made by <a href="http://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>

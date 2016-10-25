@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\DomainException;
 
 /**
- * DomainExceptionTest.
+ * Class DomainExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

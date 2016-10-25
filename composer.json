@@ -1,7 +1,7 @@
 {
   "name": "doozr-framework/exception",
   "license": "MIT",
-  "description": " Exception trait enriching classes with parser, interpreter and compiler.",
+  "description": "Shared exceptions base library used across Doozr components.",
   "type": "library",
   "authors": [
     {

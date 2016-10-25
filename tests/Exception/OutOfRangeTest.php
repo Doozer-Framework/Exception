@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\OutOfRangeException;
 
 /**
- * OutOfRangeExceptionTest.
+ * Class OutOfRangeExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

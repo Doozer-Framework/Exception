@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\BadMethodCallException;
 
 /**
- * BadMethodCallExceptionTest.
+ * Class BadMethodCallExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

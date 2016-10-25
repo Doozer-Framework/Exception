@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\UnexpectedValueException;
 
 /**
- * UnexpectedValueExceptionTest.
+ * Class UnexpectedValueExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\RangeException;
 
 /**
- * RangeExceptionTest.
+ * Class RangeExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

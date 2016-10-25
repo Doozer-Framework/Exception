@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\InvalidArgumentException;
 
 /**
- * InvalidArgumentExceptionTest.
+ * Class InvalidArgumentExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

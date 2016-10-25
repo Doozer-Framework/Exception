@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\LengthException;
 
 /**
- * LengthExceptionTest.
+ * Class LengthExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

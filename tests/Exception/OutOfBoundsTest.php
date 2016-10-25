@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\OutOfBoundsException;
 
 /**
- * OutOfBoundsExceptionTest.
+ * Class OutOfBoundsExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

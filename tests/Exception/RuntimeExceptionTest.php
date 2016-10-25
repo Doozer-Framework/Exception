@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\RuntimeException;
 
 /**
- * RuntimeExceptionTest.
+ * Class RuntimeExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */

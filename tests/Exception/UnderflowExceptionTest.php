@@ -45,7 +45,7 @@ namespace Doozer\Exception\Tests;
 use Doozer\Exception\Tests\Fixtures\UnderflowException;
 
 /**
- * UnderflowExceptionTest.
+ * Class UnderflowExceptionTest.
  *
  * @author Benjamin Carl <opensource@clickalicious.de>
  */
