@@ -11,9 +11,9 @@ engines:
   fixme:
     enabled: true
   markdownlint:
-    enabled: true
+    enabled: false
   shellcheck:
-    enabled: true
+    enabled: false
 ratings:
   paths:
     - "src/"
