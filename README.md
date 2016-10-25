@@ -2,7 +2,7 @@
 ---
 # ![logo](docs/logo.png)
 ---
-[![Build Status](https://travis-ci.org/Doozer-Framework/Exception.svg)](https://travis-ci.org/Doozer-Framework/Exception) [![Code Climate](https://codeclimate.com/github/Doozer-Framework/Exception/badges/gpa.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Test Coverage](https://codeclimate.com/github/Doozer-Framework/Exception/badges/coverage.svg)](https://codeclimate.com/github/Doozer-Framework/Exception/coverage) 
+[![Build Status](https://travis-ci.org/Doozer-Framework/Exception.svg)](https://travis-ci.org/Doozer-Framework/Exception) [![Code Climate](https://codeclimate.com/github/Doozer-Framework/Exception/badges/gpa.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Test Coverage](https://codeclimate.com/github/Doozer-Framework/Exception/badges/coverage.svg)](https://codeclimate.com/github/Doozer-Framework/Exception/coverage) [![Issue Count](https://codeclimate.com/github/Doozer-Framework/Exception/badges/issue_count.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) 
 
 Library providing a collection of abstract base exceptions for Doozer-Framework components, libraries and applications.
 
