@@ -23,7 +23,6 @@ ratings:
   paths:
     - "src/"
 exclude_paths:
-  - "tests/"
   - "docs/"
   - "bin/"
   - "vendor/"
