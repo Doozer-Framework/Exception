@@ -24,7 +24,7 @@ before_script:
   - composer --optimize-autoloader --no-interaction
 
 script:
-  - bin/phpunit -c ./ --coverage-clover=build/logs/clover.xml --coverage-html=./docs/coverage
+  - ./vendor/bin/phpunit -c ./ --coverage-clover=build/logs/clover.xml --coverage-html=./docs/coverage
 
 after_script:
   # We upload only for reference platform! This is our base for further code analyses and so on.
@@ -33,7 +33,8 @@ after_script:
   - pwd
   - ls -d -1 $PWD/build/logs/*
   - ls -d -1 $PWD/./build/logs/*
-  - if [ $(phpenv version-name) == "5.6" ] && [ "$PREFER_LOWEST" == "--prefer-lowest" ]; then CODECLIMATE_REPO_TOKEN=$CODECLIMATE_TOKEN ./bin/test-reporter; fi
+  - cat build/logs/clover.xml
+  - if [ $(phpenv version-name) == "5.6" ] && [ "$PREFER_LOWEST" == "--prefer-lowest" ]; then CODECLIMATE_REPO_TOKEN=$CODECLIMATE_TOKEN ./vendor/bin/test-reporter; fi
 
 after_success:
   # Push coverage to github pages branch
