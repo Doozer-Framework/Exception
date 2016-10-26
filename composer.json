@@ -49,7 +49,7 @@
   },
   "config": {
     "bin-dir": "bin",
-    "use-include-path": false,
+    "use-include-path": true,
     "preferred-install": "dist"
   }
 }
