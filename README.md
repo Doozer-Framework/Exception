@@ -1,8 +1,9 @@
 <img src="https://avatars0.githubusercontent.com/u/22737590?v=3&s=100" align="right" />
 ---
 # ![logo](docs/logo.png)
+Exception
 ---
-[![Build Status](https://travis-ci.org/Doozer-Framework/Exception.svg)](https://travis-ci.org/Doozer-Framework/Exception) [![Code Climate](https://codeclimate.com/github/Doozer-Framework/Exception/badges/gpa.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Test Coverage](https://codeclimate.com/github/Doozer-Framework/Exception/badges/coverage.svg)](https://codeclimate.com/github/Doozer-Framework/Exception/coverage) [![Issue Count](https://codeclimate.com/github/Doozer-Framework/Exception/badges/issue_count.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Dependency Status](https://www.versioneye.com/user/projects/580f6cc1912815137ff3c753/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/580f6cc1912815137ff3c753) 
+[![Build Status](https://travis-ci.org/Doozer-Framework/Exception.svg)](https://travis-ci.org/Doozer-Framework/Exception) [![Code Climate](https://codeclimate.com/github/Doozer-Framework/Exception/badges/gpa.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Issue Count](https://codeclimate.com/github/Doozer-Framework/Exception/badges/issue_count.svg)](https://codeclimate.com/github/Doozer-Framework/Exception) [![Dependency Status](https://www.versioneye.com/user/projects/580f6cc1912815137ff3c753/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/580f6cc1912815137ff3c753) 
 
 Library providing a collection of abstract base exceptions for Doozer-Framework components, libraries and applications.
 
@@ -23,18 +24,14 @@ OR add it to `composer.json`:
   ...
 ```
 
-and run an update:
+and run `update` (on single package):
 ```bash
 $ composer update Doozer-Framework/Exception
 ```
 
 ## Contributing
 
-To contribute to `Doozer-Framework/Exception` you will need to clone the project somewhere to your local filesystem via:
-
-```bash
-git clone git@github.com:Doozer-Framework/Exception.git
-```
+Feel free to contribute with additions, fixes or documentation. Fork the project, apply your changes and create a pull request so we can review your changes before merging them.  
 
 ## Code & Standards
 
