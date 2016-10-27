@@ -1,5 +1,5 @@
 {
-  "name": "doozr-framework/exception",
+  "name": "doozer-framework/exception",
   "license": "MIT",
   "description": "Shared exceptions base library used across Doozr components.",
   "type": "library",
